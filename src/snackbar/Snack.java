@@ -78,7 +78,9 @@ public class Snack
     @Override
     public String toString()
     {
-        return this.getName() + ", qty: " + this.getQuantity() + ", total value: " + this.getQuantity() * this.getCost() + ".";
+        return this.getName()
+                + ", qty: " + this.getQuantity()
+                + ", total value: " + this.getQuantity() * this.getCost() + ".";
     }
 
 }
