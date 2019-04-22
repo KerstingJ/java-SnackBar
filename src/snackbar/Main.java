@@ -67,6 +67,12 @@ public class Main
 
         System.out.println("\n\n WE FRIGGEN GOT IT \n\n");
         //Issa comment
+
+        Snack[] snacks = new Snack[]{chips, chocolateBar, pretzel, soda, water};
+        for (int i = 0; i < snacks.length; i++ )
+        {
+            System.out.println(snacks[i].toString());
+        }
     }
 
     public static void main(String[] args)
