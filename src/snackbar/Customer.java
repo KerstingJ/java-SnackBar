@@ -40,6 +40,4 @@ public class Customer
         cashOnHand -= cost;
     }
 
-
-
 }

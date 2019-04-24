@@ -75,4 +75,12 @@ public class Snack
         return cost * quantity;
     }
 
+    @Override
+    public String toString()
+    {
+        return this.getName()
+                + ", qty: " + this.getQuantity()
+                + ", total value: " + this.getQuantity() * this.getCost() + ".";
+    }
+
 }
